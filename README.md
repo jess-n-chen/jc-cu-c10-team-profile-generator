@@ -3,13 +3,14 @@
 ## Columbia University Bootcamp - Object-Oriented Programming Challenge: Team Profile Generator
 
 > This repository contains my command line application that generates a team profile HTML page using a series of questions prompted to the end user.
-> Link to Application Walkthrough:
+> Link to Application Walkthrough: https://drive.google.com/file/d/1Cpoh9Qm93bq3BZACWV82fhLEUmi_CJtG/view
 
 ## Table of Contents
 
 - [General Info](#general-information)
 - [Project Requirements](#project-requirements)
 - [Installation](#installation)
+- [Test](#tests)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
 
@@ -62,7 +63,13 @@ THEN I exit the application, and the HTML is generated
 2. Run `npm install` in order to install the npm package dependencies as specified in the package.json file.
 3. Run `node index.js` in the command line to use the application.
 
+## Tests
+
+There are tests provided with this repository source code. Use `npm run test` after the application is installed to run tests using jest.
+
 ## Screenshots
+
+![Website screenshot 1](./src/images/Team_Roster_Homepage.png)
 
 ## Contact
 

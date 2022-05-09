@@ -22,7 +22,7 @@ test("gets engineer's name", () => {
     "lilynpad"
   );
 
-  expect(engineer.getName().toBe("Lily Pad"));
+  expect(engineer.getName()).toBe("Lily Pad");
 });
 
 test("gets engineer's Id", () => {
@@ -33,7 +33,7 @@ test("gets engineer's Id", () => {
     "lilynpad"
   );
 
-  expect(engineer.getId().toBe("123456"));
+  expect(engineer.getId()).toBe("123456");
 });
 
 test("gets engineer's email", () => {
@@ -44,7 +44,7 @@ test("gets engineer's email", () => {
     "lilynpad"
   );
 
-  expect(engineer.getEmail().toBe("lilypad@hello.com"));
+  expect(engineer.getEmail()).toBe("lilypad@hello.com");
 });
 
 test("gets engineer's github username", () => {
@@ -55,7 +55,7 @@ test("gets engineer's github username", () => {
     "lilynpad"
   );
 
-  expect(engineer.getGithub().toBe("lilynpad"));
+  expect(engineer.getGithub()).toBe("lilynpad");
 });
 
 test("gets engineer's role", () => {
@@ -66,5 +66,5 @@ test("gets engineer's role", () => {
     "lilynpad"
   );
 
-  expect(engineer.getRole().toBe("Engineer"));
+  expect(engineer.getRole()).toBe("Engineer");
 });
