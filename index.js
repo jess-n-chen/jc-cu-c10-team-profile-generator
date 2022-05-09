@@ -252,6 +252,7 @@ Add a New Intern
     });
 };
 
+// Builds Site After Prompts are Complete
 const buildSite = () => {
   console.log(`
 ==========================
@@ -262,10 +263,9 @@ Finished Building My Team
   const pageHTML = generatePage(team);
   writeFile(pageHTML);
   copyFile();
-
-  console.log("Your site is ready!");
 };
 
+// Initialize Function
 promptManager()
   .then((managerData) => {
     const manager = new Manager(

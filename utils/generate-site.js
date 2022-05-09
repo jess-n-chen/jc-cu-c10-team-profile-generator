@@ -9,10 +9,7 @@ const writeFile = (siteContent) => {
         return;
       }
 
-      resolve({
-        ok: true,
-        message: "Site HTML created! Please check ./dist folder.",
-      });
+      resolve(console.log("Site HTML created! Please check ./dist folder."));
     });
   });
 };
@@ -26,10 +23,7 @@ const copyFile = () => {
         return;
       }
 
-      resolve({
-        ok: true,
-        message: "Stylesheet created! Please check ./dist folder.",
-      });
+      resolve(console.log("Stylesheet created! Please check ./dist folder."));
     });
   });
 };
